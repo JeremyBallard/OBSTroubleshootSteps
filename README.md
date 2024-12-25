@@ -12,7 +12,7 @@ User posts [log file](https://obsproject.com/logs/5lXOpH3kILrSQWA8), with 30 sec
 In the same log, recording starts and stops just before stream starts and stops.
 ![image](https://github.com/user-attachments/assets/a899b37f-d71c-4286-a269-ce9d0c0ca8d8)
   
-Assisting User (AU1) thinks there could also be a problem with capturing Minecraft in Game Capture, as detailed by this scene data
+Assisting User (AU1) thinks there could also be a problem with capturing Minecraft in Game Capture, as detailed by this scene data  
 ![image](https://github.com/user-attachments/assets/dbdd4208-8a03-4c50-a7ce-48d80f85578e)
 
 and this executable being captured by OBS.  
@@ -29,4 +29,8 @@ once for stream and once for the local file recording.
 User is directed to change file path downloads by AU1, by going to Settings > Output and finding 'Recording Path' under the 'Recording' tab.  
 ![image](https://github.com/user-attachments/assets/29b42d0b-9541-425f-96e8-506fdc8bc490)
 
-User uploads [3rd log](https://obsproject.com/logs/uFwZHdSoviOqMwVO), with changes to local recording path. No frame drops detected anymore.
+User uploads [3rd log](https://obsproject.com/logs/uFwZHdSoviOqMwVO), with changes to local recording path. Frame drops still detected but Assisting User 3 (AU3) correctly asks if OBS had been restarted since implenting all changes.
+
+User restarts, does a test stream, and sends [this log](https://obsproject.com/logs/OpBiBNrPvOc58QIH), showing little frame drops.  
+![image](https://github.com/user-attachments/assets/e50ed375-4d19-4563-95df-d732bd3dd8ae)
+
