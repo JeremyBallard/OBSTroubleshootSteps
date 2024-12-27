@@ -7,10 +7,10 @@
 12/24/24 Version 30.2.3 on Windows 10  
 User says "[stream] just goes good then for 2 seconds it like stops and starts i dont know how to explain, its just a basic lag..."  
 User posts [log file](https://obsproject.com/logs/5lXOpH3kILrSQWA8), with 30 seconds of stream test to show a significant portion of frames dropping.  
-![image](https://github.com/user-attachments/assets/fc04155e-dabb-4e30-a4ce-366710517abf)
+![image](https://github.com/user-attachments/assets/08bd2e46-805f-49ae-9f9d-79a2f583709b)  
 
 In the same log, recording starts and stops just before stream starts and stops.
-![image](https://github.com/user-attachments/assets/a899b37f-d71c-4286-a269-ce9d0c0ca8d8)
+![image](https://github.com/user-attachments/assets/cbe82504-d79e-4656-8047-dca3c8bfb28c)  
   
 Assisting User (AU1) thinks there could also be a problem with capturing Minecraft in Game Capture, as detailed by this scene data  
 ![image](https://github.com/user-attachments/assets/dbdd4208-8a03-4c50-a7ce-48d80f85578e)
