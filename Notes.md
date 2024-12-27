@@ -72,7 +72,7 @@ User turned off setting and is not happy with how dark camera frame is now. User
 User posts this photo of G Hub settings:  
 ![image](https://github.com/user-attachments/assets/70185040-1948-4939-8616-601f22b27057)  
 
-"Auto Exposure" is off, which unfortunately hides the setting for "Low Light Compensation" in G Hub. 
+"Auto Exposure" is off, which unfortunately hides the setting for "Low Light Compensation" in G Hub.  
 ![GHubLL1](https://github.com/user-attachments/assets/f3dbd0a7-067c-47d8-ba93-4b2b45ce3ca9)  
 
 I suggested to turn "Auto Exposure" on in G Hub, to turn "Low Light Compensation" off, and then turn "Auto Exposure" back off. Then, set the shutter speed and ISO to the desired exposure.  
