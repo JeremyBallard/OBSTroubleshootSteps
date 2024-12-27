@@ -1,6 +1,6 @@
 # OBS Troubleshooting Notes
 [Quick Start Guide via OBS Official Site](https://obsproject.com/kb/quick-start-guide)  
-[Default Place to Check for initial troubleshooting help via OBS Official Site](https://obsproject.com/kb/category/2)
+[Default Guides to Check for initial troubleshooting help via OBS Official Site](https://obsproject.com/kb/category/2)
 
 ## Dropping Frames 
 ### User Experiencing issues related to Recording and Streaming
