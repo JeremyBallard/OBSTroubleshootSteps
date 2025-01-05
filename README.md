@@ -7,16 +7,16 @@
 12/24/24 Version 30.2.3 on Windows 10  
 User says "[stream] just goes good then for 2 seconds it like stops and starts i dont know how to explain, its just a basic lag..."  
 User posts [log file](https://obsproject.com/logs/5lXOpH3kILrSQWA8), with 30 seconds of stream test to show a significant portion of frames dropping.  
-![image](https://raw.githubusercontent.com/JeremyBallard/OBSTroubleshootSteps/refs/heads/main/Images/RecordStreamFrameDrop.png)
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/RecordStreamFrameDrop.png)
 
 In the same log, recording starts and stops just before stream starts and stops.  
-![image](https://raw.githubusercontent.com/JeremyBallard/OBSTroubleshootSteps/refs/heads/main/Images/RecordStreamStartStop.png)  
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/RecordStreamStartStop.png)  
   
 Assisting User (AU1) thinks there could also be a problem with capturing Minecraft in Game Capture, as detailed by this scene data  
-![image](https://raw.githubusercontent.com/JeremyBallard/OBSTroubleshootSteps/refs/heads/main/Images/RecordStreamSceneData.png)
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/RecordStreamSceneData.png)
 
 and this executable being captured by OBS.  
-![image](https://raw.githubusercontent.com/JeremyBallard/OBSTroubleshootSteps/refs/heads/main/Images/RecordStreamGameHook.png
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/RecordStreamGameHook.png)
 
 AU1 directs user to [Minecraft: Java Edition Troubleshooting Guide](https://obsproject.com/kb/minecraft-java-edition-troubleshooting), unknown if user employs this guide.  
   
@@ -24,14 +24,14 @@ A [second log file](https://obsproject.com/logs/gY2JCmuo0h23tXCm) is dropped, an
   
 Another Assisting User (AU2) notices that user's recording not locally, but rather to a OneDrive folder. This is also reflected in the first log. Possibly causing internet issues by continuously uploading twice,
 once for stream and once for the local file recording.  
-![image](https://raw.githubusercontent.com/JeremyBallard/OBSTroubleshootSteps/refs/heads/main/Images/RecordStreamRecordingPath1.png) ![image](https://raw.githubusercontent.com/JeremyBallard/OBSTroubleshootSteps/refs/heads/main/Images/RecordStreamRecordingPath2.png)
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/RecordStreamRecordingPath1.png) ![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/RecordStreamRecordingPath2.png)
 User is directed to change file path downloads by AU1, by going to Settings > Output and finding 'Recording Path' under the 'Recording' tab.  
-![image](https://raw.githubusercontent.com/JeremyBallard/OBSTroubleshootSteps/refs/heads/main/Images/RecordingPathChangeOBS.png)
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/RecordingPathChangeOBS.png)
 
 User uploads [3rd log](https://obsproject.com/logs/uFwZHdSoviOqMwVO), with changes to local recording path. Frame drops still detected but Assisting User 3 (AU3) correctly asks if OBS had been restarted since implementing all changes.
 
 User restarts, does a test stream, and sends [this log](https://obsproject.com/logs/OpBiBNrPvOc58QIH), showing little frame drops.  
-![image](https://raw.githubusercontent.com/JeremyBallard/OBSTroubleshootSteps/refs/heads/main/Images/RecordStreamPostSolutionFrames.png)
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/RecordStreamPostSolutionFrames.png)
 
 ## Visual Issues  
 ### User Having Issues With Consistent Exposure on Logitech Camera  
