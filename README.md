@@ -41,38 +41,38 @@ User restarts, does a test stream, and sends [this log](https://obsproject.com/l
 User posted following message (edited for conciseness): "hello everyone im having trouble with auto exposure... ive used my logitech g hub to make my camera a persistent profile... yet still outta know where [nowhere] the camera intesif[ie]s the [exposure] making way way way to[o] bright".  
 
 User also posted sample comparison for what color profile should be    
-![image](https://github.com/user-attachments/assets/af5b22e1-f490-4a5b-97ad-fd2f34b8bc45)  
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/ExposureLogiSampleColor1.png)  
 and what camera randomly does.  
-![image](https://github.com/user-attachments/assets/1fbc4216-7d6c-4485-ba37-b07ca45ba7f4)  
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/ExposureLogiSampleColor2.png)  
 
 User also posted a [log](https://obsproject.com/logs/MC5NpiO14XL2MzA3), but log did not provide sufficient info for what is happening to the camera.  
 
 I suggested user right click on the camera source,  
-![image](https://github.com/user-attachments/assets/c07cc99b-2178-41a3-ad45-c87d0a513f2b)  
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/CameraSourceProperties.png)  
   
 go to properties > configure video  
-![image](https://github.com/user-attachments/assets/77d4e2d5-e8df-4ce7-a210-76766002ef0c)  
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/CameraConfigureVideoOBS.png)  
 
 to pull up this screen.  
-![image](https://github.com/user-attachments/assets/1566ed8c-f9af-428a-aaf1-79f90c04e01c)  
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/CameraConfigurationOBS.png)  
 
 There is a Camera Control tab in settings. This is what user shows when screenshotting to that tab:  
-![image](https://github.com/user-attachments/assets/341f55a2-aaeb-4fca-863f-a90a476db222)    
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/ExposureLogiCameraControlTab.png)    
 
 User had "Low Light Compensation" on, a Logitech setting that I have personally experienced the exposure being too high when on and it automatically adjusting while in OBS.  
   
 This is the tooltip for what "Low Light Compensation" is doing. To me, this reads as "dynamically vary the **shutter speed**", or said more verbosely, the exposure is changed by dynamically dropping the speed since that allows more light in. I am unsure if this is what is happening but it's my best guess.  
-![image](https://github.com/user-attachments/assets/23a09b43-668e-4a7e-acb9-3a064e4cf6b0)  
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/LowLightCompensationTooltip.png)  
   
 I suggested, for testing purposes, to have user turn off this setting in OBS. I also said to user that "it'll mess with white balance at first (Edit: not white balance, but exposure), you might have to recalibrate [your camera profile]".  
 
 User turned off setting and is not happy with how dark camera frame is now. User turned G Hub profile back on, which turned on "Low Light Compensation" automatically in OBS.  
 
 User posts this photo of G Hub settings:  
-![image](https://github.com/user-attachments/assets/70185040-1948-4939-8616-601f22b27057)  
+![image](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/ExposureLogiGHubSettings.png)  
 
 "Auto Exposure" is off, which unfortunately hides the setting for "Low Light Compensation" in G Hub.  
-![GHubLL1](https://github.com/user-attachments/assets/f3dbd0a7-067c-47d8-ba93-4b2b45ce3ca9)  
+![GHubLL1](https://github.com/JeremyBallard/OBSTroubleshootSteps/blob/main/Images/GHubLL1.gif)  
 
 I suggested to turn "Auto Exposure" on in G Hub, to turn "Low Light Compensation" off, and then turn "Auto Exposure" back off. Then, set the shutter speed and ISO to the desired exposure.  
 
